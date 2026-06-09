@@ -1,0 +1,13 @@
+{
+  "font-size": {
+    "body": { "$value": "{font-size.md}", "$type": "dimension" },
+    "heading": { "$value": "{font-size.xl}", "$type": "dimension" },
+    "label": { "$value": "{font-size.sm}", "$type": "dimension" },
+    "badge": { "$value": "{font-size.xs}", "$type": "dimension" },
+    "card-title": { "$value": "{font-size.lg}", "$type": "dimension" }
+  },
+  "font-family": {
+    "sans": { "$value": "{font.sans}", "$type": "fontFamily" },
+    "mono": { "$value": "{font.mono}", "$type": "fontFamily" }
+  }
+}

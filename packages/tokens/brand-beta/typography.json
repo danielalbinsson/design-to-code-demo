@@ -1,0 +1,6 @@
+{
+  "font": {
+    "sans": { "$value": "'Outfit', system-ui, sans-serif", "$type": "fontFamily" },
+    "mono": { "$value": "'IBM Plex Mono', ui-monospace, monospace", "$type": "fontFamily" }
+  }
+}

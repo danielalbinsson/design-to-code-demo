@@ -1,0 +1,11 @@
+{
+  "space": {
+    "inline-sm": { "$value": "{space.2}", "$type": "dimension" },
+    "inline-md": { "$value": "{space.4}", "$type": "dimension" },
+    "inline-lg": { "$value": "{space.6}", "$type": "dimension" },
+    "stack-sm": { "$value": "{space.2}", "$type": "dimension" },
+    "stack-md": { "$value": "{space.4}", "$type": "dimension" },
+    "stack-lg": { "$value": "{space.8}", "$type": "dimension" },
+    "badge-y": { "$value": "{space.half}", "$type": "dimension" }
+  }
+}

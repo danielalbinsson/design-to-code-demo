@@ -1,0 +1,34 @@
+{
+  "color": {
+    "blue": {
+      "500": { "$value": "#6366F1", "$type": "color" },
+      "600": { "$value": "#4F46E5", "$type": "color" }
+    },
+    "gray": {
+      "50": { "$value": "#FAFAFA", "$type": "color" },
+      "100": { "$value": "#EBEBEB", "$type": "color" },
+      "800": { "$value": "#737373", "$type": "color" },
+      "900": { "$value": "#0A0A0A", "$type": "color" }
+    },
+    "white": { "$value": "#FFFFFF", "$type": "color" },
+    "red": {
+      "100": { "$value": "#FFE4E6", "$type": "color" },
+      "500": { "$value": "#F43F5E", "$type": "color" }
+    },
+    "ink": {
+      "900": { "$value": "#0A0A0A", "$type": "color" },
+      "800": { "$value": "#1A1A1A", "$type": "color" }
+    },
+    "hero": {
+      "bg": { "$value": "{color.gray.50}", "$type": "color" },
+      "text": { "$value": "{color.gray.900}", "$type": "color" }
+    },
+    "palette": {
+      "accent-soft": { "$value": "#C8F6F9", "$type": "color" },
+      "brand-gradient": {
+        "$value": "linear-gradient(135deg, #FC4C02 0%, #EF2CC1 50%, #BDBBFF 100%)",
+        "$type": "string"
+      }
+    }
+  }
+}

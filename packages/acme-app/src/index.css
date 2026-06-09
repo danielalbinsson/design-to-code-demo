@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@import './tokens/brand-alpha.css';
+@import './tokens/brand-alpha.dark.css';
+@import './tokens/brand-beta.css';
+@import './tokens/brand-beta.dark.css';
+
+@theme inline {
+  --color-action-primary: var(--color-action-primary);
+  --color-action-primary-hover: var(--color-action-primary-hover);
+  --color-bg-page: var(--color-bg-page);
+  --color-bg-surface: var(--color-bg-surface);
+  --color-bg-surface-alt: var(--color-bg-surface-alt);
+  --color-bg-hero: var(--color-bg-hero);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-on-action: var(--color-text-on-action);
+  --color-text-on-hero: var(--color-text-on-hero);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-brand-gradient: var(--color-brand-gradient);
+  --color-feedback-error: var(--color-feedback-error);
+  --color-feedback-error-subtle: var(--color-feedback-error-subtle);
+  --color-border-default: var(--color-border-default);
+
+  --radius-card: var(--radius-card);
+  --radius-button: var(--radius-button);
+
+  --spacing-inline-sm: var(--space-inline-sm);
+  --spacing-inline-md: var(--space-inline-md);
+  --spacing-inline-lg: var(--space-inline-lg);
+  --spacing-stack-sm: var(--space-stack-sm);
+  --spacing-stack-md: var(--space-stack-md);
+  --spacing-stack-lg: var(--space-stack-lg);
+
+  --text-body: var(--font-size-body);
+  --text-heading: var(--font-size-heading);
+  --text-label: var(--font-size-label);
+  --text-badge: var(--font-size-badge);
+  --text-card-title: var(--font-size-card-title);
+
+  --spacing-badge-y: var(--space-badge-y);
+  --radius-badge: var(--radius-badge);
+
+  --font-sans: var(--font-family-sans);
+  --font-mono: var(--font-family-mono);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-bg-page);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-body);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.text-mono-label {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.bg-brand-gradient {
+  background: var(--color-brand-gradient);
+}

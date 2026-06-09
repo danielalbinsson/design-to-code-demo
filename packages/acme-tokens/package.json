@@ -1,0 +1,12 @@
+{
+  "name": "@acme/tokens",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node config.mjs"
+  },
+  "dependencies": {
+    "style-dictionary": "^4.3.0"
+  }
+}

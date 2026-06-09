@@ -1,0 +1,7 @@
+{
+  "radius": {
+    "card": { "$value": "{radius.md}", "$type": "dimension" },
+    "button": { "$value": "{radius.sm}", "$type": "dimension" },
+    "badge": { "$value": "{radius.full}", "$type": "dimension" }
+  }
+}

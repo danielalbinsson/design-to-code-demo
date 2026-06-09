@@ -1,0 +1,6 @@
+{
+  "font": {
+    "sans": { "$value": "'Jost', system-ui, sans-serif", "$type": "fontFamily" },
+    "mono": { "$value": "'JetBrains Mono', ui-monospace, monospace", "$type": "fontFamily" }
+  }
+}

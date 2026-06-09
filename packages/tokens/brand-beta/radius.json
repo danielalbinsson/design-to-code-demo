@@ -1,0 +1,6 @@
+{
+  "radius": {
+    "sm": { "$value": "4px", "$type": "dimension" },
+    "md": { "$value": "8px", "$type": "dimension" }
+  }
+}

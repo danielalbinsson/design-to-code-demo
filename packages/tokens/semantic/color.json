@@ -1,0 +1,19 @@
+{
+  "color": {
+    "action-primary": { "$value": "{color.ink.900}", "$type": "color" },
+    "action-primary-hover": { "$value": "{color.ink.800}", "$type": "color" },
+    "bg-page": { "$value": "{color.gray.50}", "$type": "color" },
+    "bg-surface": { "$value": "{color.white}", "$type": "color" },
+    "bg-surface-alt": { "$value": "{color.gray.100}", "$type": "color" },
+    "bg-hero": { "$value": "{color.hero.bg}", "$type": "color" },
+    "text-primary": { "$value": "{color.gray.900}", "$type": "color" },
+    "text-secondary": { "$value": "{color.gray.800}", "$type": "color" },
+    "text-on-action": { "$value": "{color.white}", "$type": "color" },
+    "text-on-hero": { "$value": "{color.hero.text}", "$type": "color" },
+    "accent-soft": { "$value": "{color.palette.accent-soft}", "$type": "color" },
+    "brand-gradient": { "$value": "{color.palette.brand-gradient}", "$type": "string" },
+    "feedback-error": { "$value": "{color.red.500}", "$type": "color" },
+    "feedback-error-subtle": { "$value": "{color.red.100}", "$type": "color" },
+    "border-default": { "$value": "{color.gray.100}", "$type": "color" }
+  }
+}

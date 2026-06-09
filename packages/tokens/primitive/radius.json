@@ -1,0 +1,5 @@
+{
+  "radius": {
+    "full": { "$value": "9999px", "$type": "dimension" }
+  }
+}
