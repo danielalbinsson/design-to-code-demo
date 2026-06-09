@@ -33,9 +33,10 @@ const themes = [
     sources: [
       'primitive/**/*.json',
       'brand-beta/color.json',
-      'brand-beta/radius.json',
       'brand-beta/typography.json',
       'semantic/**/*.json',
+      'brand-beta/radius.json',
+      'brand-beta/semantic/typography.json',
     ],
   },
   {
@@ -44,9 +45,10 @@ const themes = [
     sources: [
       'primitive/**/*.json',
       'brand-beta/color.json',
-      'brand-beta/radius.json',
       'brand-beta/typography.json',
       'semantic/**/*.json',
+      'brand-beta/radius.json',
+      'brand-beta/semantic/typography.json',
       'dark/**/*.json',
       'dark/brand-beta/**/*.json',
     ],
@@ -67,10 +69,6 @@ for (const theme of themes) {
           {
             destination: theme.file,
             format: 'css/variables',
-            filter: (token) =>
-              token.path[0] !== 'color' ||
-              token.path.length > 1 ||
-              !['blue', 'gray', 'white', 'red'].includes(token.path[1]),
             options: {
               selector: theme.selector,
               outputReferences: true,

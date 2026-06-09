@@ -29,7 +29,8 @@ Primary user action trigger. Use for submitting forms, confirming dialogs, and f
 - `--color-bg-surface-alt` (secondary hover)
 - `--radius-button`
 - `--space-inline-sm`, `--space-inline-md`, `--space-inline-lg`
-- `--font-size-body`, `--font-size-label`
+- `--font-size-label`
+- `--font-mono` (mono label face)
 
 ## Usage Rules
 

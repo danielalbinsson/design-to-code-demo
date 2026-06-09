@@ -4,22 +4,22 @@
 
 ## Overview
 
-- [Getting Started](../docs/getting-started.md): Setup, install, basic usage
-- [Figma](../figma.md): Component library file (Foundations + one page per component)
-- [Tokens](../docs/tokens.md): Design token architecture (primitive → semantic → component)
-- [Theming](../docs/theming.md): How brand themes work, how to add a new brand
+- [Getting Started](docs/getting-started.md): Setup, install, basic usage
+- [Figma](figma.md): Component library file (Foundations + one page per component)
+- [Tokens](docs/tokens.md): Design token architecture (primitive → semantic → component)
+- [Theming](docs/theming.md): How brand themes work, how to add a new brand
 
 ## Components
 
-- [Button](../docs/components/button.md): Primary, secondary, destructive variants
-- [Card](../docs/components/card.md): Surface container with padding and radius
-- [Input](../docs/components/input.md): Text input with label, error, disabled states
-- [Badge](../docs/components/badge.md): Status indicators
+- [Button](docs/components/button.md): Primary, secondary, destructive variants
+- [Card](docs/components/card.md): Surface container with padding and radius
+- [Input](docs/components/input.md): Text input with label, error, disabled states
+- [Badge](docs/components/badge.md): Status indicators
 
 ## Verification
 
-- [AI agent test checklist](../docs/verification.md): Prove the pipeline works
+- [AI agent test checklist](docs/verification.md): Prove the pipeline works
 
 ## For AI Agents
 
-- [llms-full.txt](../llms-full.txt): Complete component reference in one file
+- [llms-full.txt](llms-full.txt): Complete component reference in one file

@@ -1,5 +1,8 @@
 {
   "color": {
+    "action-primary": { "$value": "{color.blue.500}", "$type": "color" },
+    "action-primary-hover": { "$value": "{color.blue.600}", "$type": "color" },
+    "text-on-action": { "$value": "{color.white}", "$type": "color" },
     "bg-page": { "$value": "{color.gray.900}", "$type": "color" },
     "bg-surface": { "$value": "{color.gray.800}", "$type": "color" },
     "bg-surface-alt": { "$value": "{color.gray.800}", "$type": "color" },

@@ -51,11 +51,8 @@ export function Dashboard() {
               variant="secondary"
               size="sm"
               onClick={toggleBrand}
-              className={
-                brand === 'brand-alpha'
-                  ? 'border-white/20 text-text-on-hero hover:bg-white/10'
-                  : undefined
-              }
+              aria-label={`Switch to ${brand === 'brand-alpha' ? 'Beta' : 'Alpha'} brand`}
+              className="border-border-default text-text-on-hero"
             >
               Brand: {brand === 'brand-alpha' ? 'Alpha' : 'Beta'}
             </Button>
@@ -63,11 +60,8 @@ export function Dashboard() {
               variant="secondary"
               size="sm"
               onClick={toggleMode}
-              className={
-                brand === 'brand-alpha'
-                  ? 'border-white/20 text-text-on-hero hover:bg-white/10'
-                  : undefined
-              }
+              aria-label={`Switch to ${mode === 'light' ? 'dark' : 'light'} mode`}
+              className="border-border-default text-text-on-hero"
             >
               Mode: {mode === 'light' ? 'Light' : 'Dark'}
             </Button>
@@ -90,6 +84,7 @@ export function Dashboard() {
           <Card title="Recent accounts">
             <div className="overflow-x-auto">
               <table className="w-full min-w-[32rem] text-left text-body">
+                <caption className="sr-only">Recent accounts with name, status, and last updated date</caption>
                 <thead>
                   <tr className="border-b border-border-default bg-bg-surface-alt text-mono-label text-label text-text-secondary">
                     <th className="py-inline-sm pr-inline-md">Name</th>

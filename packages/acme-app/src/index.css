@@ -43,6 +43,7 @@
 
   --font-sans: var(--font-family-sans);
   --font-mono: var(--font-family-mono);
+  --font-button-label: var(--font-family-button-label);
 }
 
 body {
@@ -68,6 +69,13 @@ h3 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+.text-button-label {
+  font-family: var(--font-button-label);
+  font-weight: 500;
+  text-transform: var(--button-label-text-transform);
+  letter-spacing: var(--button-label-letter-spacing);
 }
 
 .bg-brand-gradient {

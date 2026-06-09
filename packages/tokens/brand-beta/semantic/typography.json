@@ -1,0 +1,9 @@
+{
+  "font-family": {
+    "button-label": { "$value": "{font.sans}", "$type": "fontFamily" }
+  },
+  "button-label": {
+    "text-transform": { "$value": "none", "$type": "string" },
+    "letter-spacing": { "$value": "normal", "$type": "string" }
+  }
+}

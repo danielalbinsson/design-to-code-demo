@@ -38,7 +38,7 @@ export function Button({
       disabled={disabled}
       aria-disabled={disabled || undefined}
       className={[
-        'text-mono-label inline-flex items-center justify-center rounded-button border transition-colors',
+        'text-button-label inline-flex items-center justify-center rounded-button border transition-colors',
         'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-action-primary',
         'disabled:cursor-not-allowed disabled:opacity-50',
         variantClasses[variant],

@@ -8,6 +8,11 @@
   },
   "font-family": {
     "sans": { "$value": "{font.sans}", "$type": "fontFamily" },
-    "mono": { "$value": "{font.mono}", "$type": "fontFamily" }
+    "mono": { "$value": "{font.mono}", "$type": "fontFamily" },
+    "button-label": { "$value": "{font.mono}", "$type": "fontFamily" }
+  },
+  "button-label": {
+    "text-transform": { "$value": "uppercase", "$type": "string" },
+    "letter-spacing": { "$value": "0.04em", "$type": "string" }
   }
 }
