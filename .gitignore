@@ -3,4 +3,14 @@ dist
 storybook-static
 .DS_Store
 *.log
-product.md
+
+# Generated token CSS (rebuild via pnpm build:tokens && pnpm copy:tokens)
+packages/acme-tokens/build/
+packages/acme-app/src/tokens/*.css
+
+# Generated LLM bundle (run pnpm build:llms to refresh)
+llms-full.txt
+
+# Local tooling
+.pnpm-store/
+.npmrc_test
