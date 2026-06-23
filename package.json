@@ -7,6 +7,7 @@
     "copy:tokens": "cp packages/acme-tokens/build/*.css packages/acme-app/src/tokens/",
     "dev": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app dev",
     "build": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app build",
+    "build-storybook": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app build-storybook",
     "storybook": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app storybook",
     "build:storybook": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app build-storybook",
     "build:llms": "node scripts/build-llms-full.mjs"
