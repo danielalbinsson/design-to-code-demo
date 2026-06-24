@@ -1,25 +1,11 @@
 import {
-  createContext,
   useCallback,
-  useContext,
   useLayoutEffect,
   useMemo,
   useState,
   type ReactNode,
 } from 'react'
-
-export type Brand = 'brand-alpha' | 'brand-beta'
-export type Mode = 'light' | 'dark'
-
-type ThemeContextValue = {
-  brand: Brand
-  mode: Mode
-  setBrand: (brand: Brand) => void
-  toggleBrand: () => void
-  toggleMode: () => void
-}
-
-const ThemeContext = createContext<ThemeContextValue | null>(null)
+import { ThemeContext, type Brand, type Mode } from './theme-context'
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [brand, setBrand] = useState<Brand>('brand-alpha')
@@ -48,12 +34,4 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   )
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
-}
-
-export function useTheme() {
-  const context = useContext(ThemeContext)
-  if (!context) {
-    throw new Error('useTheme must be used within ThemeProvider')
-  }
-  return context
 }

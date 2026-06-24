@@ -6,7 +6,7 @@ import { Input } from '../components/Input'
 import { Modal } from '../components/Modal'
 import { Select } from '../components/Select'
 import { Toggle } from '../components/Toggle'
-import { useTheme } from '../providers/ThemeProvider'
+import { useTheme } from '../providers/theme-context'
 
 const stats = [
   { title: 'Total Users', value: '12,480' },

@@ -8,6 +8,8 @@
     "prebuild": "pnpm -w build:tokens && pnpm -w copy:tokens",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"

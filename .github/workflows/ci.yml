@@ -31,6 +31,26 @@ jobs:
         env:
           CI: true
 
+      - name: Lint
+        run: pnpm lint
+        env:
+          CI: true
+
+      - name: Typecheck
+        run: pnpm typecheck
+        env:
+          CI: true
+
+      - name: Install Playwright browsers
+        run: pnpm --filter @acme/app exec playwright install --with-deps chromium
+        env:
+          CI: true
+
+      - name: Test (Storybook stories + a11y)
+        run: pnpm test
+        env:
+          CI: true
+
       - name: Build all (tokens + app)
         run: pnpm build
         env:
