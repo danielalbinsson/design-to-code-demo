@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build:tokens": "pnpm --filter @acme/tokens build",
-    "copy:tokens": "cp packages/acme-tokens/build/*.css packages/acme-app/src/tokens/",
+    "copy:tokens": "mkdir -p packages/acme-app/src/tokens && cp packages/acme-tokens/build/*.css packages/acme-app/src/tokens/",
     "dev": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app dev",
     "build": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app build",
     "build-storybook": "pnpm build:tokens && pnpm copy:tokens && pnpm --filter @acme/app build-storybook",
