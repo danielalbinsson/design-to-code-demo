@@ -2,9 +2,17 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import { Toggle } from './Toggle'
 import { useState } from 'react'
 
-function StatefulToggle(props: { checked?: boolean; label?: string; disabled?: boolean }) {
+function StatefulToggle(props: { checked?: boolean; label?: string; ariaLabel?: string; disabled?: boolean }) {
   const [checked, setChecked] = useState(props.checked ?? false)
-  return <Toggle checked={checked} onChange={setChecked} label={props.label} disabled={props.disabled} />
+  return (
+    <Toggle
+      checked={checked}
+      onChange={setChecked}
+      label={props.label}
+      ariaLabel={props.ariaLabel}
+      disabled={props.disabled}
+    />
+  )
 }
 
 const meta = {
@@ -32,4 +40,6 @@ export const DisabledOn: Story = {
   args: { checked: true, disabled: true, label: 'Notifications' },
 }
 
-export const WithoutLabel: Story = {}
+export const WithoutLabel: Story = {
+  args: { ariaLabel: 'Notifications' },
+}

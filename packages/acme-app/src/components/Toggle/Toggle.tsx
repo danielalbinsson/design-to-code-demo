@@ -4,6 +4,8 @@ export type ToggleProps = {
   checked: boolean
   onChange?: (checked: boolean) => void
   label?: ReactNode
+  /** Required when `label` is omitted — provides an accessible name for the switch. */
+  ariaLabel?: string
   disabled?: boolean
   id?: string
 }
@@ -12,6 +14,7 @@ export function Toggle({
   checked,
   onChange,
   label,
+  ariaLabel,
   disabled = false,
   id,
 }: ToggleProps) {
@@ -24,6 +27,7 @@ export function Toggle({
         id={toggleId}
         type="button"
         aria-checked={checked}
+        aria-label={label ? undefined : ariaLabel}
         disabled={disabled}
         onClick={() => { if (onChange) onChange(!checked) }}
         className={[

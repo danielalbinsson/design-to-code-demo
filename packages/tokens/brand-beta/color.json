@@ -13,7 +13,8 @@
     "white": { "$value": "#FFFFFF", "$type": "color" },
     "red": {
       "100": { "$value": "#FFE4E6", "$type": "color" },
-      "500": { "$value": "#F43F5E", "$type": "color" }
+      "500": { "$value": "#F43F5E", "$type": "color" },
+      "700": { "$value": "#BE123C", "$type": "color" }
     },
     "ink": {
       "900": { "$value": "#0A0A0A", "$type": "color" },
