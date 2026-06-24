@@ -1,0 +1,8 @@
+{
+  "color": {
+    "hero": {
+      "bg": { "$value": "#0B1026", "$type": "color" },
+      "text": { "$value": "#FFFFFF", "$type": "color" }
+    }
+  }
+}

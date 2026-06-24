@@ -24,7 +24,8 @@ const themes = [
       'primitive/**/*.json',
       'brand-alpha/**/*.json',
       'semantic/**/*.json',
-      'dark/**/*.json',
+      'dark/semantic/**/*.json',
+      'dark/brand-alpha/**/*.json',
     ],
   },
   {
@@ -49,7 +50,7 @@ const themes = [
       'semantic/**/*.json',
       'brand-beta/radius.json',
       'brand-beta/semantic/typography.json',
-      'dark/**/*.json',
+      'dark/semantic/**/*.json',
       'dark/brand-beta/**/*.json',
     ],
   },

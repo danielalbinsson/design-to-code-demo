@@ -58,18 +58,14 @@ export function Dashboard() {
               variant="secondary"
               size="sm"
               onClick={toggleBrand}
-              aria-label={`Switch to ${brand === 'brand-alpha' ? 'Beta' : 'Alpha'} brand`}
-              className="border-border-default text-text-on-hero"
-            >
+              aria-label={`Switch to ${brand === 'brand-alpha' ? 'Beta' : 'Alpha'} brand`}            >
               Brand: {brand === 'brand-alpha' ? 'Alpha' : 'Beta'}
             </Button>
             <Button
               variant="secondary"
               size="sm"
               onClick={toggleMode}
-              aria-label={`Switch to ${mode === 'light' ? 'dark' : 'light'} mode`}
-              className="border-border-default text-text-on-hero"
-            >
+              aria-label={`Switch to ${mode === 'light' ? 'dark' : 'light'} mode`}            >
               Mode: {mode === 'light' ? 'Light' : 'Dark'}
             </Button>
             <Button size="sm" onClick={() => setExportOpen(true)}>

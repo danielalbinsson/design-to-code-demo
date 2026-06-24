@@ -20,8 +20,8 @@
       "800": { "$value": "#1A1A1A", "$type": "color" }
     },
     "hero": {
-      "bg": { "$value": "#0B1026", "$type": "color" },
-      "text": { "$value": "#FFFFFF", "$type": "color" }
+      "bg": { "$value": "{color.gray.50}", "$type": "color" },
+      "text": { "$value": "{color.gray.900}", "$type": "color" }
     },
     "palette": {
       "accent-soft": { "$value": "#E8E4FF", "$type": "color" },
