@@ -12,9 +12,12 @@
 ## Components
 
 - [Button](docs/components/button.md): Primary, secondary, destructive variants
+- [Badge](docs/components/badge.md): Status indicators
 - [Card](docs/components/card.md): Surface container with padding and radius
 - [Input](docs/components/input.md): Text input with label, error, disabled states
-- [Badge](docs/components/badge.md): Status indicators
+- [Select](docs/components/select.md): Dropdown selector with label and options
+- [Toggle](docs/components/toggle.md): Binary switch with role="switch"
+- [Modal](docs/components/modal.md): Overlay dialog with focus trap
 
 ## Verification
 
