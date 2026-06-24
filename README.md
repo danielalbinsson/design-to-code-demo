@@ -70,4 +70,18 @@ On every push and PR, the CI pipeline:
 1. Installs dependencies via pnpm
 2. Builds design tokens with Style Dictionary
 3. Builds the React app with TypeScript + Vite
-4. Publishes to Chromatic for visual review and Storybook hosting
+4. Builds Storybook and publishes to Chromatic for visual review and Storybook hosting
+
+### Chromatic (local)
+
+1. Create a project at [chromatic.com](https://www.chromatic.com/) and link it to this GitHub repo.
+2. Copy the project token from **Manage → Configure**.
+3. Add `CHROMATIC_PROJECT_TOKEN` to [GitHub Actions secrets](https://github.com/danielalbinsson/design-to-code-demo/settings/secrets/actions) for CI.
+4. Run locally (replace the token with yours from Chromatic → **Manage → Configure**):
+
+```bash
+export CHROMATIC_PROJECT_TOKEN=chpt_xxxxxxxx  # not a placeholder — paste your real token
+CI=true corepack pnpm chromatic
+```
+
+Storybook lives in `packages/acme-app/`; the `chromatic` script builds tokens first, then uploads `packages/acme-app/storybook-static`.

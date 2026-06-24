@@ -37,8 +37,15 @@ jobs:
         env:
           CI: true
 
+      - name: Build Storybook
+        run: pnpm build-storybook
+        env:
+          CI: true
+
       - name: Publish to Chromatic
-        uses: chromaui/action@v1
+        uses: chromaui/action@v13
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookBuildDir: packages/acme-app/storybook-static
+          storybookBaseDir: packages/acme-app
           onlyChanged: true
