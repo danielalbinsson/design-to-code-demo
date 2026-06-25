@@ -1,4 +1,4 @@
-# Acme Design System — Design-to-Code Demo
+## Design-to-Code Demo
 
 Full pipeline from Figma variables to a multi-brand React app, with Style Dictionary, Storybook, and AI-readable docs. Figma holds foundations and components (one page per component); the dashboard lives in code.
 
