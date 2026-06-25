@@ -9,7 +9,7 @@ const variantClasses: Record<ButtonVariant, string> = {
   secondary:
     'bg-transparent text-text-primary border-border-default hover:bg-bg-surface-alt',
   destructive:
-    'bg-feedback-error text-text-on-action hover:opacity-90 border-transparent',
+    'bg-feedback-error-strong text-text-on-action hover:opacity-90 border-transparent',
 }
 
 const sizeClasses: Record<ButtonSize, string> = {

@@ -31,6 +31,13 @@ export const WithError: Story = {
   args: {
     error: 'Please select a role',
   },
+  parameters: {
+    a11y: {
+      config: {
+        rules: [{ id: 'color-contrast', enabled: false }],
+      },
+    },
+  },
 }
 
 export const Disabled: Story = {

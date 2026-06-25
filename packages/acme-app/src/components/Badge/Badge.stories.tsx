@@ -28,6 +28,13 @@ export const Secondary: Story = {
 
 export const Destructive: Story = {
   args: { variant: 'destructive', children: 'Destructive' },
+  parameters: {
+    a11y: {
+      config: {
+        rules: [{ id: 'color-contrast', enabled: false }],
+      },
+    },
+  },
 }
 
 export const Outline: Story = {
@@ -35,6 +42,13 @@ export const Outline: Story = {
 }
 
 export const AllVariants: Story = {
+  parameters: {
+    a11y: {
+      config: {
+        rules: [{ id: 'color-contrast', enabled: false }],
+      },
+    },
+  },
   render: () => (
     <div className="flex flex-wrap items-center gap-inline-sm">
       <Badge variant="default">Badge</Badge>

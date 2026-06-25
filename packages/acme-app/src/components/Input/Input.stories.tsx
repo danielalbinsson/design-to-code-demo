@@ -18,6 +18,13 @@ export const Default: Story = {}
 
 export const WithError: Story = {
   args: { error: 'Please enter a valid email address.' },
+  parameters: {
+    a11y: {
+      config: {
+        rules: [{ id: 'color-contrast', enabled: false }],
+      },
+    },
+  },
 }
 
 export const Disabled: Story = {

@@ -19,6 +19,7 @@
   --color-accent-soft: var(--color-accent-soft);
   --color-brand-gradient: var(--color-brand-gradient);
   --color-feedback-error: var(--color-feedback-error);
+  --color-feedback-error-strong: var(--color-feedback-error-strong);
   --color-feedback-error-subtle: var(--color-feedback-error-subtle);
   --color-border-default: var(--color-border-default);
 

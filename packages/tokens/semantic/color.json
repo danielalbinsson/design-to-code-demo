@@ -12,7 +12,8 @@
     "text-on-hero": { "$value": "{color.hero.text}", "$type": "color" },
     "accent-soft": { "$value": "{color.palette.accent-soft}", "$type": "color" },
     "brand-gradient": { "$value": "{color.palette.brand-gradient}", "$type": "string" },
-    "feedback-error": { "$value": "{color.red.700}", "$type": "color" },
+    "feedback-error": { "$value": "{color.red.500}", "$type": "color" },
+    "feedback-error-strong": { "$value": "{color.red.700}", "$type": "color" },
     "feedback-error-subtle": { "$value": "{color.red.100}", "$type": "color" },
     "border-default": { "$value": "{color.gray.100}", "$type": "color" }
   }
