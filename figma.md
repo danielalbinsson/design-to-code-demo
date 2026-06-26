@@ -23,7 +23,7 @@ The Figma file is a **component library** — foundations and reusable component
 
 | Page | Mode | Contents |
 |------|------|----------|
-| `Preview · Brand Alpha` | Alpha · light | All 9 Button variants, 4 Badge variants, Card, Input |
+| `Preview · Brand Alpha` | Alpha · light | All 9 Button variants, 4 Badge variants, Card, Input, Toggle, Select, Modal |
 | `Preview · Brand Beta` | Beta · light | Same layout |
 | `Preview · Brand Alpha · Dark` | Alpha · dark | Same layout on `color-bg-page` dark background |
 | `Preview · Brand Beta · Dark` | Beta · dark | Same layout on dark background |
@@ -45,6 +45,9 @@ In code, dark mode is additionally scoped with `[data-mode="dark"]` on `<html>`.
 | `Card` | Card component |
 | `Input` | Input component |
 | `Badge` | Badge variant set (default, secondary, destructive, outline) |
+| `Toggle` | Toggle variant set (State Off/On × Disabled False/True) |
+| `Select` | Select variant set (default, filled, error, disabled) |
+| `Modal` | Modal variant set (title + body, with footer, body only) |
 
 ## Text styles
 
@@ -76,7 +79,8 @@ All component text layers bind to semantic `font-size-*` and `font-family-*` var
 - Variables: `tokens` primitives + `semantic` aliases with Brand Alpha / Brand Beta modes
 - Font families: bound on all component text via `font-family-*` semantic variables
 - Semantic variables have WEB code syntax: `var(--color-action-primary)` etc.
-- One Figma page per component (Button, Card, Input, Badge)
+- One Figma page per component (Button, Card, Input, Badge, Toggle, Select, Modal)
+- Toggle, Select and Modal added to match the React components in `packages/acme-app/src/components/`; all colors, spacing, radii and type bound to the same `semantic` variables, and included on all four `Preview ·` brand pages
 - Token JSON in `packages/tokens/` remains the Style Dictionary build source of truth
 - Dark mode: Figma modes `Brand Alpha · Dark` / `Brand Beta · Dark` + code `[data-mode="dark"]`
 - Dashboard / composition examples: React app (`packages/acme-app/`) and Storybook
