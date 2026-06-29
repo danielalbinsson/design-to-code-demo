@@ -63,7 +63,7 @@ export function Card({
       ) : null}
       <div className={showImage ? 'p-stack-md' : undefined}>
         {title ? (
-          <h3 className="mb-stack-sm text-card-title font-semibold text-text-primary">{title}</h3>
+          <h2 className="mb-stack-sm text-card-title font-semibold text-text-primary">{title}</h2>
         ) : null}
         {children}
       </div>

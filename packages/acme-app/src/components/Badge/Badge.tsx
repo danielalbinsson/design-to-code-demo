@@ -10,7 +10,7 @@ export type BadgeProps = HTMLAttributes<HTMLSpanElement> & {
 const variantClasses: Record<BadgeVariant, string> = {
   default: 'border-transparent bg-action-primary text-text-on-action',
   secondary: 'border-transparent bg-bg-surface-alt text-text-primary',
-  destructive: 'border-transparent bg-feedback-error-subtle text-feedback-error',
+  destructive: 'border-transparent bg-feedback-error-subtle text-feedback-error-strong',
   outline: 'border-border-default bg-bg-surface text-text-primary',
 }
 

@@ -84,5 +84,6 @@ All component text layers bind to semantic `font-size-*` and `font-family-*` var
 - Token JSON in `packages/tokens/` remains the Style Dictionary build source of truth
 - Dark mode: Figma modes `Brand Alpha · Dark` / `Brand Beta · Dark` + code `[data-mode="dark"]`
 - Dark semantic tokens reconciled with code (2026-06): `color-accent-soft`, `color-action-primary` (Beta dark → blue-500), `color-bg-surface-alt`, `color-border-default`
-- Primitives added in Figma `tokens` collection: `palette-accent-soft`, `slate-750`, `slate-600`
+- Primitives added in Figma `tokens` collection: `palette-accent-soft`, `slate-750`, `slate-600`, `red-700`
+- Semantic added: `color-accent-soft`, `color-feedback-error-strong`; Badge destructive text bound to `color-feedback-error-strong` for 4.5:1 contrast
 - Dashboard / composition examples: React app (`packages/acme-app/`) and Storybook
