@@ -83,4 +83,6 @@ All component text layers bind to semantic `font-size-*` and `font-family-*` var
 - Toggle, Select and Modal added to match the React components in `packages/acme-app/src/components/`; all colors, spacing, radii and type bound to the same `semantic` variables, and included on all four `Preview ·` brand pages
 - Token JSON in `packages/tokens/` remains the Style Dictionary build source of truth
 - Dark mode: Figma modes `Brand Alpha · Dark` / `Brand Beta · Dark` + code `[data-mode="dark"]`
+- Dark semantic tokens reconciled with code (2026-06): `color-accent-soft`, `color-action-primary` (Beta dark → blue-500), `color-bg-surface-alt`, `color-border-default`
+- Primitives added in Figma `tokens` collection: `palette-accent-soft`, `slate-750`, `slate-600`
 - Dashboard / composition examples: React app (`packages/acme-app/`) and Storybook

@@ -19,11 +19,24 @@ Shared primitives (spacing, typography sizes) live in `packages/tokens/primitive
 
 ## Dark mode
 
-Dark semantic overrides live in `packages/tokens/dark/semantic/`. Style Dictionary merges them for dark builds and scopes output to:
+Dark semantic overrides live in `packages/tokens/dark/semantic/`. Brand-specific dark overrides (e.g. `accent-soft`, `bg-surface`) live in `packages/tokens/dark/brand-alpha/` and `packages/tokens/dark/brand-beta/`. Style Dictionary merges them for dark builds and scopes output to:
 
 ```css
 [data-theme="brand-alpha"][data-mode="dark"] { ... }
 ```
+
+### Dark mode contrast rules
+
+When adding or changing dark tokens, verify these pairs differ in **all four** theme CSS outputs (`brand-*.css`, `brand-*.dark.css`):
+
+| Pair | Why |
+|------|-----|
+| `accent-soft` vs `bg-surface` | Stat cards, chart bars |
+| `bg-surface-alt` vs `bg-surface` | Table headers, nav active state |
+| `action-primary` vs `bg-surface` | Buttons, chart peak bars |
+| `border-default` vs `bg-surface` | Borders remain visible |
+
+Define brand-specific `palette.accent-soft` in `dark/brand-*/color.json` — do not alias `accent-soft` to the same value as `bg-surface` in shared dark semantic.
 
 ## Generated CSS
 
