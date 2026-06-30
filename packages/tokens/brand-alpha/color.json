@@ -20,12 +20,20 @@
       "900": { "$value": "#0A0A0A", "$type": "color" },
       "800": { "$value": "#1A1A1A", "$type": "color" }
     },
+    "orange": {
+      "500": { "$value": "#FF6B4A", "$type": "color" },
+      "600": { "$value": "#E85A3A", "$type": "color" }
+    },
+    "violet": {
+      "400": { "$value": "#A5B4FC", "$type": "color" }
+    },
     "hero": {
       "bg": { "$value": "{color.gray.50}", "$type": "color" },
       "text": { "$value": "{color.gray.900}", "$type": "color" }
     },
     "palette": {
       "accent-soft": { "$value": "#E8E4FF", "$type": "color" },
+      "chart-bar": { "$value": "{color.orange.500}", "$type": "color" },
       "brand-gradient": {
         "$value": "linear-gradient(135deg, #FF6B4A 0%, #9B59D3 50%, #A5B4FC 100%)",
         "$type": "string"

@@ -183,6 +183,22 @@
         "$type": "color"
       }
     },
+    "orange": {
+      "500": {
+        "$value": "#FF6B4A",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "#E85A3A",
+        "$type": "color"
+      }
+    },
+    "violet": {
+      "400": {
+        "$value": "#A5B4FC",
+        "$type": "color"
+      }
+    },
     "hero": {
       "bg": {
         "$value": "{color.gray.50}",
@@ -196,6 +212,10 @@
     "palette": {
       "accent-soft": {
         "$value": "#E8E4FF",
+        "$type": "color"
+      },
+      "chart-bar": {
+        "$value": "{color.orange.500}",
         "$type": "color"
       },
       "brand-gradient": {
@@ -247,6 +267,10 @@
       "$value": "{color.palette.accent-soft}",
       "$type": "color"
     },
+    "chart-bar": {
+      "$value": "{color.palette.chart-bar}",
+      "$type": "color"
+    },
     "brand-gradient": {
       "$value": "{color.palette.brand-gradient}",
       "$type": "string"
@@ -261,6 +285,18 @@
     },
     "feedback-error-subtle": {
       "$value": "{color.red.100}",
+      "$type": "color"
+    },
+    "feedback-error-subtle-foreground": {
+      "$value": "{color.red.700}",
+      "$type": "color"
+    },
+    "badge-default-bg": {
+      "$value": "{color.action-primary}",
+      "$type": "color"
+    },
+    "badge-default-foreground": {
+      "$value": "{color.text-on-action}",
       "$type": "color"
     },
     "border-default": {

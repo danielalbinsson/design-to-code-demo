@@ -83,7 +83,10 @@ All component text layers bind to semantic `font-size-*` and `font-family-*` var
 - Toggle, Select and Modal added to match the React components in `packages/acme-app/src/components/`; all colors, spacing, radii and type bound to the same `semantic` variables, and included on all four `Preview ·` brand pages
 - Token JSON in `packages/tokens/` remains the Style Dictionary build source of truth
 - Dark mode: Figma modes `Brand Alpha · Dark` / `Brand Beta · Dark` + code `[data-mode="dark"]`
-- Dark semantic tokens reconciled with code (2026-06): `color-accent-soft`, `color-action-primary` (Beta dark → blue-500), `color-bg-surface-alt`, `color-border-default`
-- Primitives added in Figma `tokens` collection: `palette-accent-soft`, `slate-750`, `slate-600`, `red-700`
-- Semantic added: `color-accent-soft`, `color-feedback-error-strong`; Badge destructive text bound to `color-feedback-error-strong` for 4.5:1 contrast
+- Dark semantic tokens reconciled with code (2026-06): `color-accent-soft`, `color-action-primary` (Beta dark → teal-500), `color-bg-surface-alt`, `color-border-default`
+- Primitives added in Figma `tokens` collection: `palette-accent-soft`, `slate-750`, `slate-600`, `red-700`, `orange-500`, `orange-600`, `teal-500`, `teal-600`, `violet-400`, `palette-chart-bar`
+- Semantic added: `color-accent-soft`, `color-feedback-error-strong`, `color-chart-bar`, `color-badge-default-bg`, `color-badge-default-foreground`, `color-feedback-error-subtle-foreground`
+- Alpha dark: `color-action-primary` → `orange-500`, `color-text-on-action` → `ink-900`, default Badge → `palette-accent-soft` + `violet-400`
+- Beta dark: `color-action-primary` → `teal-500`; destructive Badge text → `color-feedback-error-subtle-foreground` (white on `#DC2626`)
+- Badge default variant bound to `color-badge-default-*`; destructive text bound to `color-feedback-error-subtle-foreground`
 - Dashboard / composition examples: React app (`packages/acme-app/`) and Storybook

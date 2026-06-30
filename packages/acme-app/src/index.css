@@ -17,10 +17,14 @@
   --color-text-on-action: var(--color-text-on-action);
   --color-text-on-hero: var(--color-text-on-hero);
   --color-accent-soft: var(--color-accent-soft);
+  --color-chart-bar: var(--color-chart-bar);
   --color-brand-gradient: var(--color-brand-gradient);
   --color-feedback-error: var(--color-feedback-error);
   --color-feedback-error-strong: var(--color-feedback-error-strong);
   --color-feedback-error-subtle: var(--color-feedback-error-subtle);
+  --color-feedback-error-subtle-foreground: var(--color-feedback-error-subtle-foreground);
+  --color-badge-default-bg: var(--color-badge-default-bg);
+  --color-badge-default-foreground: var(--color-badge-default-foreground);
   --color-border-default: var(--color-border-default);
 
   --radius-card: var(--radius-card);

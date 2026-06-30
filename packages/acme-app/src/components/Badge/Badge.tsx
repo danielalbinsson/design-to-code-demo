@@ -8,9 +8,9 @@ export type BadgeProps = HTMLAttributes<HTMLSpanElement> & {
 }
 
 const variantClasses: Record<BadgeVariant, string> = {
-  default: 'border-transparent bg-action-primary text-text-on-action',
+  default: 'border-transparent bg-badge-default-bg text-badge-default-foreground',
   secondary: 'border-transparent bg-bg-surface-alt text-text-primary',
-  destructive: 'border-transparent bg-feedback-error-subtle text-feedback-error-strong',
+  destructive: 'border-transparent bg-feedback-error-subtle text-feedback-error-subtle-foreground',
   outline: 'border-border-default bg-bg-surface text-text-primary',
 }
 

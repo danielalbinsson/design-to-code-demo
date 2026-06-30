@@ -18,16 +18,12 @@ export function TokenBarChart({ title, data }: TokenBarChartProps) {
       >
         {data.map((bar) => {
           const heightPercent = (bar.value / maxValue) * 100
-          const isPeak = bar.value === maxValue
 
           return (
             <div key={bar.label} className="flex flex-1 flex-col items-center gap-stack-sm">
               <div className="flex h-32 w-full items-end">
                 <div
-                  className={[
-                    'w-full rounded-button transition-colors',
-                    isPeak ? 'bg-action-primary' : 'bg-accent-soft',
-                  ].join(' ')}
+                  className="w-full rounded-button bg-chart-bar transition-colors"
                   style={{ height: `${heightPercent}%` }}
                   title={`${bar.label}: ${bar.value}%`}
                 />

@@ -6,9 +6,9 @@ Compact status indicator for labels such as Active, Pending, or Error. Styled li
 
 ## Variants
 
-- `default` — primary emphasis. Solid `color-action-primary` background.
+- `default` — primary emphasis. `color-badge-default-bg` background with `color-badge-default-foreground` text (Alpha dark uses blueish-purple label on soft violet fill; other themes follow action colors).
 - `secondary` — neutral. `color-bg-surface-alt` background.
-- `destructive` — errors/warnings. Subtle `color-feedback-error-subtle` background with `color-feedback-error-strong` text (meets 4.5:1 contrast on the subtle fill).
+- `destructive` — errors/warnings. Subtle `color-feedback-error-subtle` background with `color-feedback-error-subtle-foreground` text (dark red in light mode, white in dark mode).
 - `outline` — bordered. Transparent surface with `color-border-default` border.
 
 ## Props
@@ -21,9 +21,9 @@ Compact status indicator for labels such as Active, Pending, or Error. Styled li
 
 ## Tokens Used
 
-- `--color-action-primary`, `--color-text-on-action` (default)
+- `--color-badge-default-bg`, `--color-badge-default-foreground` (default)
 - `--color-bg-surface-alt`, `--color-text-primary` (secondary)
-- `--color-feedback-error-subtle`, `--color-feedback-error-strong` (destructive)
+- `--color-feedback-error-subtle`, `--color-feedback-error-subtle-foreground` (destructive)
 - `--color-bg-surface`, `--color-border-default`, `--color-text-primary` (outline)
 - `--font-size-badge` (12px / xs)
 - `--space-inline-sm`, `--space-badge-y`

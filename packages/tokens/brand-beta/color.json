@@ -4,6 +4,10 @@
       "500": { "$value": "#6366F1", "$type": "color" },
       "600": { "$value": "#4F46E5", "$type": "color" }
     },
+    "teal": {
+      "500": { "$value": "#14B8A6", "$type": "color" },
+      "600": { "$value": "#0D9488", "$type": "color" }
+    },
     "gray": {
       "50": { "$value": "#FAFAFA", "$type": "color" },
       "100": { "$value": "#EBEBEB", "$type": "color" },
@@ -26,6 +30,7 @@
     },
     "palette": {
       "accent-soft": { "$value": "#C8F6F9", "$type": "color" },
+      "chart-bar": { "$value": "#14B8A6", "$type": "color" },
       "brand-gradient": {
         "$value": "linear-gradient(135deg, #FC4C02 0%, #EF2CC1 50%, #BDBBFF 100%)",
         "$type": "string"

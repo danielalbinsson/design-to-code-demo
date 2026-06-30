@@ -9,6 +9,7 @@
     "text-primary": { "$value": "{color.gray.50}", "$type": "color" },
     "text-secondary": { "$value": "{color.gray.100}", "$type": "color" },
     "border-default": { "$value": "{color.gray.800}", "$type": "color" },
-    "feedback-error-subtle": { "$value": "#450A0A", "$type": "color" }
+    "feedback-error-subtle": { "$value": "#DC2626", "$type": "color" },
+    "feedback-error-subtle-foreground": { "$value": "{color.white}", "$type": "color" }
   }
 }

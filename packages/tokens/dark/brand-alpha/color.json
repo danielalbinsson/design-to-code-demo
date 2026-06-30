@@ -7,6 +7,11 @@
     "palette": {
       "accent-soft": { "$value": "#2A2645", "$type": "color" }
     },
+    "action-primary": { "$value": "{color.orange.500}", "$type": "color" },
+    "action-primary-hover": { "$value": "{color.orange.600}", "$type": "color" },
+    "text-on-action": { "$value": "{color.ink.900}", "$type": "color" },
+    "badge-default-bg": { "$value": "{color.palette.accent-soft}", "$type": "color" },
+    "badge-default-foreground": { "$value": "{color.violet.400}", "$type": "color" },
     "bg-surface-alt": { "$value": "#243044", "$type": "color" },
     "border-default": { "$value": "#334155", "$type": "color" }
   }

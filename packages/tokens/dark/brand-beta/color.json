@@ -11,6 +11,8 @@
     "palette": {
       "accent-soft": { "$value": "#1A3A3D", "$type": "color" }
     },
+    "action-primary": { "$value": "{color.teal.500}", "$type": "color" },
+    "action-primary-hover": { "$value": "{color.teal.600}", "$type": "color" },
     "bg-surface": { "$value": "{color.ink.800}", "$type": "color" },
     "bg-surface-alt": { "$value": "{color.gray.700}", "$type": "color" },
     "border-default": { "$value": "{color.gray.700}", "$type": "color" }
